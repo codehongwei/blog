@@ -1,0 +1,16 @@
+{
+  "name": "my-doc",
+  "version": "1.0.0",
+  "description": "阿一叁的博客",
+  "main": "index.js",
+  "author": "hw",
+  "license": "MIT",
+  "devDependencies": {
+    "@vuepress/plugin-docsearch": "^2.0.0-beta.45",
+    "vuepress": "^2.0.0-beta.45"
+  },
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  }
+}
